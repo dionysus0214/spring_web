@@ -14,7 +14,6 @@ import lombok.extern.log4j.Log4j;
 @ContextConfiguration({ "file:src/main/webapp/WEB-INF/spring/root-context.xml" })
 public class SampleServiceTests {
 
-	// @Setter(onMethod = @__({ @Autowired }))
 	@Setter(onMethod_ = @Autowired)
 	private SampleService service;
 
